@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8518FE3219E63ADE007E1CA6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8518FE3119E63ADE007E1CA6 /* CoreData.framework */; };
 		8575CF9C19E4256700B7301A /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575CF9B19E4256700B7301A /* ConfigViewController.swift */; };
+		858A872A19E7CBAB00AAD68B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 858A872919E7CBAB00AAD68B /* README.md */; };
 		85B3476919DD4F9A00BAFD8D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3476819DD4F9A00BAFD8D /* SettingsViewController.swift */; };
 		85B3476B19DFB07D00BAFD8D /* OfflineMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3476A19DFB07D00BAFD8D /* OfflineMapViewController.swift */; };
 		85B3476E19E043A400BAFD8D /* RunAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B3476D19E043A400BAFD8D /* RunAnnotationView.m */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		8518FE3119E63ADE007E1CA6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8575CF9B19E4256700B7301A /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		858A872919E7CBAB00AAD68B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		85B3476819DD4F9A00BAFD8D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		85B3476A19DFB07D00BAFD8D /* OfflineMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineMapViewController.swift; sourceTree = "<group>"; };
 		85B3476C19E043A400BAFD8D /* RunAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunAnnotationView.h; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 		85ECE93919DD478D0099DBC0 /* JeckyJogger */ = {
 			isa = PBXGroup;
 			children = (
+				858A872919E7CBAB00AAD68B /* README.md */,
 				85ECE9A619DD4A2C0099DBC0 /* Support */,
 				85ECE98B19DD4A1C0099DBC0 /* Classes */,
 				85ECE93C19DD478D0099DBC0 /* AppDelegate.swift */,
@@ -391,6 +394,7 @@
 				85ECE9A019DD4A1C0099DBC0 /* BaseViewController.swift in Sources */,
 				85ECE9A219DD4A1C0099DBC0 /* LeftViewCell.swift in Sources */,
 				85ECE9A419DD4A1C0099DBC0 /* RunData.swift in Sources */,
+				858A872A19E7CBAB00AAD68B /* README.md in Sources */,
 				85ECE93D19DD478D0099DBC0 /* AppDelegate.swift in Sources */,
 				85ECE9B619DD4A2C0099DBC0 /* RESideMenu.m in Sources */,
 				85B7C0DD19E2DC2500CD0681 /* JoggerManager.swift in Sources */,
