@@ -8,12 +8,12 @@
 	<string>DB7CE9B3-9BDB-45B7-99D2-22A5ED95768A</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</key>
+		<key>4F86566EC9F993B4496268FBAB7281202EF11311</key>
 		<string>https://github.com/pjk1129/JeckyJogger.git</string>
 	</dict>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</key>
+		<key>4F86566EC9F993B4496268FBAB7281202EF11311</key>
 		<string>JeckyJogger</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -21,14 +21,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</string>
+	<string>4F86566EC9F993B4496268FBAB7281202EF11311</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</string>
+			<string>4F86566EC9F993B4496268FBAB7281202EF11311</string>
 			<key>IDESourceControlWCCName</key>
 			<string>JeckyJogger</string>
 		</dict>

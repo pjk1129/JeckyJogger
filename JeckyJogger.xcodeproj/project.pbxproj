@@ -15,7 +15,6 @@
 		85B7C0DA19E2842300CD0681 /* RunDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7C0D919E2842300CD0681 /* RunDetailViewController.swift */; };
 		85B7C0DD19E2DC2500CD0681 /* JoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7C0DC19E2DC2500CD0681 /* JoggerManager.swift */; };
 		85B7C0E019E3747000CD0681 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7C0DF19E3747000CD0681 /* RecordViewController.swift */; };
-		85B7C0E219E39EC600CD0681 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 85B7C0E119E39EC600CD0681 /* README.md */; };
 		85ECE93D19DD478D0099DBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECE93C19DD478D0099DBC0 /* AppDelegate.swift */; };
 		85ECE94719DD478D0099DBC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85ECE94519DD478D0099DBC0 /* LaunchScreen.xib */; };
 		85ECE96219DD48A90099DBC0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ECE96119DD48A90099DBC0 /* Security.framework */; };
@@ -58,7 +57,6 @@
 		85B7C0D919E2842300CD0681 /* RunDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunDetailViewController.swift; sourceTree = "<group>"; };
 		85B7C0DC19E2DC2500CD0681 /* JoggerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoggerManager.swift; sourceTree = "<group>"; };
 		85B7C0DF19E3747000CD0681 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
-		85B7C0E119E39EC600CD0681 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		85ECE93719DD478D0099DBC0 /* JeckyJogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeckyJogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85ECE93B19DD478D0099DBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85ECE93C19DD478D0099DBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 		85ECE93919DD478D0099DBC0 /* JeckyJogger */ = {
 			isa = PBXGroup;
 			children = (
-				85B7C0E119E39EC600CD0681 /* README.md */,
 				85ECE9A619DD4A2C0099DBC0 /* Support */,
 				85ECE98B19DD4A1C0099DBC0 /* Classes */,
 				85ECE93C19DD478D0099DBC0 /* AppDelegate.swift */,
@@ -393,7 +390,6 @@
 			files = (
 				85ECE9A019DD4A1C0099DBC0 /* BaseViewController.swift in Sources */,
 				85ECE9A219DD4A1C0099DBC0 /* LeftViewCell.swift in Sources */,
-				85B7C0E219E39EC600CD0681 /* README.md in Sources */,
 				85ECE9A419DD4A1C0099DBC0 /* RunData.swift in Sources */,
 				85ECE93D19DD478D0099DBC0 /* AppDelegate.swift in Sources */,
 				85ECE9B619DD4A2C0099DBC0 /* RESideMenu.m in Sources */,
