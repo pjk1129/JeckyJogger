@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DB7CE9B3-9BDB-45B7-99D2-22A5ED95768A</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</key>
+		<string>https://github.com/pjk1129/JeckyJogger.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</key>
+		<string>JeckyJogger</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pjk1129/JeckyJogger.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEB936C50D61D38D96CE8CD8A01FD242E7BCD5EB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JeckyJogger</string>
+		</dict>
+	</array>
+</dict>
+</plist>
