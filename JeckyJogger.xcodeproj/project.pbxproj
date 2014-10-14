@@ -10,6 +10,8 @@
 		8518FE3219E63ADE007E1CA6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8518FE3119E63ADE007E1CA6 /* CoreData.framework */; };
 		8575CF9C19E4256700B7301A /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575CF9B19E4256700B7301A /* ConfigViewController.swift */; };
 		858A872A19E7CBAB00AAD68B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 858A872919E7CBAB00AAD68B /* README.md */; };
+		858A872F19E7CD8100AAD68B /* JKOCCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A872D19E7CD8100AAD68B /* JKOCCoreDataStorage.m */; };
+		858A873019E7CD8100AAD68B /* JKSwiftCoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858A872E19E7CD8100AAD68B /* JKSwiftCoreDataStorage.swift */; };
 		85B3476919DD4F9A00BAFD8D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3476819DD4F9A00BAFD8D /* SettingsViewController.swift */; };
 		85B3476B19DFB07D00BAFD8D /* OfflineMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3476A19DFB07D00BAFD8D /* OfflineMapViewController.swift */; };
 		85B3476E19E043A400BAFD8D /* RunAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B3476D19E043A400BAFD8D /* RunAnnotationView.m */; };
@@ -52,6 +54,9 @@
 		8518FE3119E63ADE007E1CA6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8575CF9B19E4256700B7301A /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		858A872919E7CBAB00AAD68B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		858A872C19E7CD8100AAD68B /* JKOCCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKOCCoreDataStorage.h; sourceTree = "<group>"; };
+		858A872D19E7CD8100AAD68B /* JKOCCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKOCCoreDataStorage.m; sourceTree = "<group>"; };
+		858A872E19E7CD8100AAD68B /* JKSwiftCoreDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKSwiftCoreDataStorage.swift; sourceTree = "<group>"; };
 		85B3476819DD4F9A00BAFD8D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		85B3476A19DFB07D00BAFD8D /* OfflineMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineMapViewController.swift; sourceTree = "<group>"; };
 		85B3476C19E043A400BAFD8D /* RunAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunAnnotationView.h; sourceTree = "<group>"; };
@@ -124,6 +129,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		858A872B19E7CD8100AAD68B /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				858A872C19E7CD8100AAD68B /* JKOCCoreDataStorage.h */,
+				858A872D19E7CD8100AAD68B /* JKOCCoreDataStorage.m */,
+				858A872E19E7CD8100AAD68B /* JKSwiftCoreDataStorage.swift */,
+			);
+			path = CoreDataStorage;
+			sourceTree = "<group>";
+		};
 		85B3476419DD4F5500BAFD8D /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +307,7 @@
 		85ECE9A619DD4A2C0099DBC0 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				858A872B19E7CD8100AAD68B /* CoreDataStorage */,
 				85ECE9A719DD4A2C0099DBC0 /* AMap */,
 				85ECE9AB19DD4A2C0099DBC0 /* RESideMenu */,
 			);
@@ -398,6 +414,7 @@
 				85ECE93D19DD478D0099DBC0 /* AppDelegate.swift in Sources */,
 				85ECE9B619DD4A2C0099DBC0 /* RESideMenu.m in Sources */,
 				85B7C0DD19E2DC2500CD0681 /* JoggerManager.swift in Sources */,
+				858A872F19E7CD8100AAD68B /* JKOCCoreDataStorage.m in Sources */,
 				85B7C0E019E3747000CD0681 /* RecordViewController.swift in Sources */,
 				85ECE99D19DD4A1C0099DBC0 /* Constant.swift in Sources */,
 				85ECE99F19DD4A1C0099DBC0 /* JUtil.swift in Sources */,
@@ -408,6 +425,7 @@
 				85B3476919DD4F9A00BAFD8D /* SettingsViewController.swift in Sources */,
 				85ECE99E19DD4A1C0099DBC0 /* EnumConstant.swift in Sources */,
 				85ECE9B519DD4A2C0099DBC0 /* RECommonFunctions.m in Sources */,
+				858A873019E7CD8100AAD68B /* JKSwiftCoreDataStorage.swift in Sources */,
 				85ECE9A119DD4A1C0099DBC0 /* HomeViewController.swift in Sources */,
 				85B7C0DA19E2842300CD0681 /* RunDetailViewController.swift in Sources */,
 				85B3476B19DFB07D00BAFD8D /* OfflineMapViewController.swift in Sources */,
