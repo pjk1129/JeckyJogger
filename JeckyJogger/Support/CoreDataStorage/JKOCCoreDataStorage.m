@@ -186,17 +186,7 @@ static NSMutableSet *databaseFileNames;
     NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : NSTemporaryDirectory();
     
     // Attempt to find a name for this application
-    NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
-    if (appName == nil) {
-        appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
-    }
-    
-    if (appName == nil) {
-        appName = @"xmppframework";
-    }
-    
-    
-    NSString *result = [basePath stringByAppendingPathComponent:appName];
+    NSString *result = [basePath stringByAppendingPathComponent:@"Jeckyframework"];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     

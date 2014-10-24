@@ -63,9 +63,9 @@ class SettingsViewController: BaseViewController, UITableViewDelegate,UITableVie
         var cell = tableView.dequeueReusableCellWithIdentifier(SettingsCell) as? UITableViewCell
         
         if indexPath.row == 0 {
-            cell?.textLabel?.text = "个人设置"
+            cell?.textLabel.text = "个人设置"
         }else{
-            cell?.textLabel?.text = "离线地图"
+            cell?.textLabel.text = "离线地图"
         }
         return cell!
     }

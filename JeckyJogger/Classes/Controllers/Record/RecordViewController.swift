@@ -60,7 +60,7 @@ class RecordViewController: BaseViewController, UITableViewDelegate,UITableViewD
         var cell = tableView.dequeueReusableCellWithIdentifier(RecordCell) as? UITableViewCell
         
         var runData = dataArray?.objectAtIndex(indexPath.row) as? RunData
-        cell?.textLabel?.text = runData?.orderId
+        cell?.textLabel.text = runData?.orderId
         return cell!
     }
     

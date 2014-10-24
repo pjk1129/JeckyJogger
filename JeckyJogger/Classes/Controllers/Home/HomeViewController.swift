@@ -202,7 +202,7 @@ class HomeViewController: BaseViewController, MAMapViewDelegate,UIAlertViewDeleg
             paceMile = integerPi
             
             var paceSeconds = runSeconds! - paceTime!
-            var paceKm = paceSeconds/60.0;
+            var paceKm = CGFloat(paceSeconds)/60.0;
             runRecord!.paceArray.addObject("\(paceKm)")
             
             if runRecord!.points.count > 0{
@@ -219,7 +219,7 @@ class HomeViewController: BaseViewController, MAMapViewDelegate,UIAlertViewDeleg
         //消耗卡路里
         var calorie:CGFloat = JUtil.computeCalorie((runDistance!/CGFloat(runSeconds!)), second: runSeconds!)
         //瞬时配速
-        var minute =  CGFloat((runSeconds! - paceTime!)/60.0)
+        var minute =  CGFloat(runSeconds! - paceTime!)/60.0
         var dis = (runDistance! - CGFloat(paceMile!*1000))/1000.0
         var pacStr = JUtil.paceString(dis, minute: minute) as NSString
         var totalTime = JUtil.dateStringFromSecond(runSeconds!) as NSString
@@ -408,7 +408,7 @@ class HomeViewController: BaseViewController, MAMapViewDelegate,UIAlertViewDeleg
         var buttonItem = UIBarButtonItem(customView: button) as UIBarButtonItem
         self.navigationItem.leftBarButtonItem = buttonItem
         
-        var img = UIImage(named: "bg_location_nor")
+        var img:UIImage! = UIImage(named: "bg_location_nor")
         locButton = UIButton.buttonWithType(UIButtonType.Custom) as? UIButton
         locButton!.frame = CGRectMake(0, CGRectGetMaxY(mapView!.frame)-160, img.size.width, img.size.height)
         locButton!.setBackgroundImage(img, forState: UIControlState.Normal)

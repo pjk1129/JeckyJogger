@@ -78,9 +78,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RESideMenuDelegate{
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    func showViewController(type:kItemTypeE){
-        
-        NSLog("%d", type.toRaw())
+    func showViewController(type:kItemTypeE){        
         switch type {
         case .kItemTypeJogger:
             if self.sideMenu?.contentViewController != navHomeController {

@@ -41,7 +41,6 @@
         // Initialization code
         self.userInteractionEnabled = YES;
         self.backgroundColor = [UIColor clearColor];
-        
         [self bottomImageView];
         
     }

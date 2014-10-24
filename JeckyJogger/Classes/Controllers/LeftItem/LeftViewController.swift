@@ -36,7 +36,7 @@ class LeftViewController: BaseViewController,UITableViewDelegate,UITableViewData
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return kItemTypeE.kItemTypeSettings.toRaw() + 1
+        return kItemTypeE.kItemTypeSettings.rawValue + 1
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
@@ -58,7 +58,7 @@ class LeftViewController: BaseViewController,UITableViewDelegate,UITableViewData
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
         tableView.deselectRowAtIndexPath(indexPath, animated:true)
                 
-        AppDelegate.appDelegate().showViewController(kItemTypeE.fromRaw(indexPath.row)!)
+        AppDelegate.appDelegate().showViewController(kItemTypeE(rawValue: indexPath.row)!)
     }
 
 
